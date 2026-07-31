@@ -1,0 +1,33 @@
+[
+    {
+        "GroupName": "WaterBazooka",
+        "AnimName": [
+            "Down"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "Explosion",
+        "EffectName": [
+            "WaterBazookaBreak00",
+            "WaterBazookaBreak01",
+            "Explosion00",
+            "Explosion01",
+            "Explosion02",
+            "Explosion03",
+            "Explosion04",
+            "Explosion05"
+        ],
+        "JointName": "Cannon1",
+        "OffsetX": 0.0,
+        "OffsetY": -100.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 225,
+        "ScaleValue": 1.8,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "GroupName": "ElectricBazooka",
+        "AnimName": [
+            "Down"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "ExplosionS2",
+        "EffectName": [
+            "ExplosionS00",
+            "ExplosionS01",
+            "ExplosionS02",
+            "ExplosionS03",
+            "ExplosionS04",
+            "ExplosionS05",
+            "WaterBazookaBreakS00"
+        ],
+        "JointName": "Cannon2",
+        "OffsetX": 235.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "StartFrame": 225,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "GroupName": "MogucchiShooter",
+        "AnimName": [
+            "Panic"
+        ],
+        "UniqueName": "PanicSweat",
+        "EffectName": [
+            "DodoryuSweat"
+        ],
+        "JointName": "Head",
+        "OffsetX": -225.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 0.7,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    }
+]

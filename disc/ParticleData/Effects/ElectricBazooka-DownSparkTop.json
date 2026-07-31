@@ -1,0 +1,32 @@
+[
+    {
+        "GroupName": "ElectricBazooka",
+        "AnimName": [
+            "Down"
+        ],
+        "ContinueAnimEnd": true,
+        "UniqueName": "DownSparkTop",
+        "EffectName": [
+            "WaterBazookaDownSpark00",
+            "WaterBazookaDownSpark01",
+            "WaterBazookaDownSparkTop00",
+            "WaterBazookaDownSparkTop01"
+        ],
+        "JointName": "Top",
+        "OffsetX": 0.0,
+        "OffsetY": 0.0,
+        "OffsetZ": 0.0,
+        "ScaleValue": 1.0,
+        "RateValue": 1.0,
+        "LightAffectValue": 0.0,
+        "DrawOrder": "3D",
+        "Affect": [
+            "T",
+            "R"
+        ],
+        "Follow": [
+            "T",
+            "R"
+        ]
+    }
+]

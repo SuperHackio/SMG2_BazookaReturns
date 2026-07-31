@@ -1,0 +1,19 @@
+{
+  "Name": "SMG2 Bazooka Returns",
+  "Author": "Super Hackio, Bavario",
+  "Description": "A port of the Water & Electric Undergrunt Gunners from SMG1.",
+  "RequiredAPIs": [ "CameraTargetDemoActor_API", "PinchBGM_API" ],
+  "SupportedGames": [ "SB4" ],
+
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "WaterBazooka",
+          "Function": "createExtActor<WaterBazooka>",
+          "Include": "WaterBazooka.h"
+        }
+      ]
+    }
+  ]
+}

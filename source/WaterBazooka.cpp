@@ -434,7 +434,7 @@ void WaterBazooka::exeDemoAnger () {
 void WaterBazooka::exeDemoBreakWait () {
     if (MR::isFirstStep(this)) {
         MR::offUpdateCollisionParts(this);
-        if (MR::isPlayerInBind()) {
+        if (MR::isPlayerInRush()) {
             MR::endBindAndPlayerJumpWithRollLanding(this, *MR::getPlayerVelocity(), 0);
         }
     }

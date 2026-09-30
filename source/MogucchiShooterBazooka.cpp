@@ -89,7 +89,7 @@ void MogucchiShooterBazooka::exeWait () {
     }
     faceToMario();
 
-    if (MR::isPlayerInBind()) {
+    if (MR::isPlayerInRush()) {
         setNerve(&NrvMogucchiShooterBazooka::MogucchiShooterNrvLaugh::sInstance);
         return;
     }
@@ -116,7 +116,7 @@ void MogucchiShooterBazooka::exeShot () {
         return;
     }
 
-    if (MR::isPlayerInBind()) {
+    if (MR::isPlayerInRush()) {
         setNerve(&NrvMogucchiShooterBazooka::MogucchiShooterNrvLaugh::sInstance);
         return;
     }
